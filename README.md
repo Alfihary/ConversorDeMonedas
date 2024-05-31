@@ -1,10 +1,10 @@
 # Conversor De Monedas
 
-¡Bienvenido al desafío Java!
+###¡Bienvenido al desafío Java!
 
 En esta oportunidad, a las personas desarrolladoras se nos solicitó crear un conversor de divisas utilizando el lenguaje Java. Las características solicitadas por nuestro cliente son las siguientes:
 
-Requisitos:
+####Requisitos:
 
 El convertidor de moneda debe:
 ~~~
