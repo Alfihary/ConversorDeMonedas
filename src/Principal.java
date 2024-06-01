@@ -11,8 +11,8 @@ public class Principal {
                 ,JOptionPane.QUESTION_MESSAGE,null,convertirMonedaTemperatura,convertirMonedaTemperatura[0]);
 
 
-        int montoConvertir = Integer.parseInt(JOptionPane.showInputDialog("Ingresa la cantidad de dinero que deseas convertir:"));
-        JOptionPane.showMessageDialog(null,montoConvertir);
+        int convertirCantidad = Integer.parseInt(JOptionPane.showInputDialog("Ingresa la cantidad de dinero que deseas convertir:"));
+        JOptionPane.showMessageDialog(null,convertirCantidad);
 
         Object [] opcionConvertir ={
                 "Pesos MXN a Dólar",
