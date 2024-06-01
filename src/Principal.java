@@ -7,7 +7,8 @@ public class Principal {
                 "Conversor de Moneda",
                 "Conversor de Temperatura"
         };
-        JOptionPane.showInputDialog(null,"Seleccione una opción de Conversion","Menú",JOptionPane.QUESTION_MESSAGE,null,convertirMonedaTemperatura,convertirMonedaTemperatura[0]);
+        JOptionPane.showInputDialog(null,"Seleccione una opción de Conversion","Menú"
+                ,JOptionPane.QUESTION_MESSAGE,null,convertirMonedaTemperatura,convertirMonedaTemperatura[0]);
 
 
         int montoConvertir = Integer.parseInt(JOptionPane.showInputDialog("Ingresa la cantidad de dinero que deseas convertir:"));
@@ -26,7 +27,8 @@ public class Principal {
                 "Won sul-Coreano a Pesos MXN"
         };
 
-        JOptionPane.showInputDialog(null,"Elije la moneda a la que deseas convertir tu dinero","Monedas",JOptionPane.QUESTION_MESSAGE,null,opcionConvertir,opcionConvertir[0]);
+        JOptionPane.showInputDialog(null,"Elije la moneda a la que deseas convertir tu dinero","Monedas"
+                ,JOptionPane.QUESTION_MESSAGE,null,opcionConvertir,opcionConvertir[0]);
 
 
 
